@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Abyssinica SIL;
+    box-sizing: border-box;
+}
+.navbar{
+    background: linear-gradient(to right ,white,aqua);
+}
+ul li a{
+    color: black !important;
+}
+/* banner */
+.background{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url(images/office-meeting.jpg);
+    background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.background h1{
+ color: white;
+font-weight: 100;
+font-size: 60px;
+}
+.background p{
+ color: aqua;
+}
+.background h1{
+    padding-top: 15%;
+}
+/* search-box */
+
+.search-box{
+       margin-top: -50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: linear-gradient(aqua,white);
+    padding: 20px 0px ;
+}
+.search-box .form-control{
+   text-align: center;
+    display: inline-flex;
+    max-width: 250px;
+    margin: 10px 0px;
+   
+}
+/* recruiters */
+.recruiters{
+    margin: 80px 0px ;
+}
+.recruiters h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+
+}
+.recruiters h1::before{
+    content: '';
+    background-image:linear-gradient(aqua,aquamarine);
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+}
+.recruiters img{
+    margin: 20px;
+    width: 150px;
+    height: 100px;
+}
+/* job */
+
+.job-role {
+    margin: 80px 0px 40px 0px ;
+}
+.job-role h1{
+    font-size: 50px;
+}
+.job-role h1::before{
+    content: '';
+    background-image:linear-gradient(aqua,aquamarine);
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    z-index: -8;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+}
+
+.bg-box{
+    margin: 40px 40px 40px 40px ;
+   box-shadow:2px 2px 10px  gray;
+   border-radius: 10px;
+}
+.text-box{
+    margin: 10px;
+}
+.text-box mark{
+    margin: 0px 5px;
+    padding: 0px 3px;
+    background: rgb(191, 233, 176);
+    border-radius: 20px;
+}
+.text-box .fa-solid{
+    color:rgb(116, 246, 69);
+    margin: 5px;
+}
+.text-box h2{
+   text-shadow: 2px 2px 2px rgb(68, 254, 0);
+}
+.text-box a{
+    margin-left: 10px;
+}
+.button{
+    background-color: aquamarine;
+    padding-left: 40%;
+
+}
+.button .btn{
+    margin: 5px;
+    padding: 0px 100px;
+    background: white;
+    font-size:x-large;
+    font-family: cursive;
+}
+/* pagination */
+
+.naveen ul li{
+    display: inline-block;
+    cursor: pointer;
+   font-size:25px;
+   padding: 0px 5px;
+   overflow-x: none !important;
+}
+li:hover{
+    background-image:linear-gradient(to right, aqua,aquamarine);
+    padding:0px 5px;
+    border-radius:50px;
+    color: white ;
+}
+/* stats */
+.site-stats {
+    margin: 100px 0px ;
+}
+
+.site-stats h1::before{
+    content: '';
+    background-image:linear-gradient(aqua,aquamarine);
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    z-index: -8;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+}
+.tont .fa-solid{
+    font-size: 50px;
+}
+.tont{
+    box-shadow: 2px 2px 2px rgb(190, 186, 186);
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+/* app */
+.app{
+    background-image: linear-gradient(to right,aqua,aquamarine);
+    padding: 50px 0px;
+    color: white;
+    font-weight: bolder;
+}
+.app img{
+    margin-top: 30px;
+}
+/* footer */
+.main {
+    margin: 80px 0px 40px 0px ;
+}
+.main img{
+    height: 50px;
+    width: 50px;
+}
+.main #img{
+    height: 26px;
+    width: 150px;
+}
+.main p{
+    margin: 20px 0px ;
+}
